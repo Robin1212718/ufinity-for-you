@@ -1,1 +1,257 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>UFINITY FOR YOU</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f8fa;
+    color: #222;
+}
+
+header {
+    background: #087f6e;
+    color: white;
+    padding: 22px 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-top: 5px;
+}
+
+nav {
+    background: white;
+    padding: 15px 8px;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: #087f6e;
+    font-weight: bold;
+}
+
+.hero {
+    background: #e0f2ed;
+    padding: 42px 18px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #075e52;
+}
+
+.hero p {
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+.button {
+    display: inline-block;
+    background: #087f6e;
+    color: white;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.section-title {
+    text-align: center;
+    margin: 30px 0 22px;
+    font-size: 25px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    padding: 0 12px 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.product {
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 9px;
+    overflow: hidden;
+    padding-bottom: 14px;
+    box-shadow: 0 2px 7px #00000008;
+}
+
+.product img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+}
+
+.product h3 {
+    font-size: 16px;
+    padding: 12px 10px 6px;
+}
+
+.product p {
+    color: #087f6e;
+    font-weight: bold;
+    padding: 5px 10px 12px;
+    font-size: 18px;
+}
+
+.order {
+    display: block;
+    margin: 0 9px;
+    background: #087f6e;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 11px 4px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info {
+    background: white;
+    text-align: center;
+    padding: 28px 15px;
+    line-height: 2;
+}
+
+footer {
+    background: #202725;
+    color: white;
+    text-align: center;
+    padding: 25px 12px;
+    line-height: 1.8;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    background: #20bd65;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 14px 17px;
+    font-weight: bold;
+    box-shadow: 0 3px 12px #0003;
+}
+
+@media (min-width: 700px) {
+    .products {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .product img {
+        height: 230px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>UFINITY</h1>
+    <p>FOR YOU</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>বিশেষ কিছু, শুধু তোমার জন্য ❤️</h2>
+    <p>
+        স্বাগতম UFINITY FOR YOU-তে।<br>
+        তোমার পছন্দের পণ্য খুঁজে নাও সহজেই।
+    </p>
+    <a href="#products" class="button">Shop Now 🛍️</a>
+</section>
+
+<h2 class="section-title" id="products">
+    ✨ আমাদের পণ্য ✨
+</h2>
+
+<section class="products">
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80" alt="T Shirt">
+        <h3>Premium T-Shirt</h3>
+        <p>৳ 550</p>
+        <a class="order" href="https://wa.me/8801XXXXXXXXX?text=I%20want%20Premium%20T-Shirt" target="_blank">Order Now</a>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80" alt="Shoes">
+        <h3>Stylish Shoes</h3>
+        <p>৳ 1200</p>
+        <a class="order" href="https://wa.me/8801XXXXXXXXX?text=I%20want%20Stylish%20Shoes" target="_blank">Order Now</a>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80" alt="Bag">
+        <h3>Fashion Bag</h3>
+        <p>৳ 850</p>
+        <a class="order" href="https://wa.me/8801XXXXXXXXX?text=I%20want%20Fashion%20Bag" target="_blank">Order Now</a>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" alt="Watch">
+        <h3>Classic Watch</h3>
+        <p>৳ 950</p>
+        <a class="order" href="https://wa.me/8801XXXXXXXXX?text=I%20want%20Classic%20Watch" target="_blank">Order Now</a>
+    </div>
+
+</section>
+
+<section class="info" id="about">
+    <h2>UFINITY FOR YOU ❤️</h2>
+    <p>তোমার পছন্দ, আমাদের অগ্রাধিকার।</p>
+    <p>সুন্দর পণ্য, সহজ কেনাকাটা।</p>
+    <p>🚚 Cash on Delivery</p>
+</section>
+
+<footer id="contact">
+    <h3>UFINITY FOR YOU</h3>
+    <p>A LITTLE SOMETHING, JUST FOR YOU</p>
+    <p>অর্ডার করতে WhatsApp-এ যোগাযোগ করো।</p>
+    <p>© 2026 UFINITY FOR YOU</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/8801XXXXXXXXX" target="_blank">
+    WhatsApp 💬
+</a>
+
+</body>
+</html>
